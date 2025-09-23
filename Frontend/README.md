@@ -19,3 +19,9 @@ Install Angular Material
 ```bash
  ng add @angular/material@19.0.4
 ```
+
+Create pages cadastro and consulta
+```bash
+ng generate component cadastro
+ng generate component consulta
+```
