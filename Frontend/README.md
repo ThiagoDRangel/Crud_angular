@@ -25,3 +25,13 @@ Create pages cadastro and consulta
 ng generate component cadastro
 ng generate component consulta
 ```
+
+Install lib Flex Layout
+```bash
+npm install @angular/flex-layout @angular/cdk
+```
+
+Install UUID
+```bash
+npm install uuid --legacy-peer-deps
+```
