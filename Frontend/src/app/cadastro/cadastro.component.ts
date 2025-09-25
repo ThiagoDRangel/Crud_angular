@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { MatIcon } from "@angular/material/icon";
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { Cliente } from './cliente';
 
 @Component({
   selector: 'app-cadastro',
@@ -25,4 +26,9 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class CadastroComponent {
 
+  cliente: Cliente = Cliente.newCliente();
+
+  salvar() {
+    console.log("Dados Cliente: ", this.cliente);
+  }
 }
